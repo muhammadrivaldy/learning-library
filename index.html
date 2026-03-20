@@ -210,6 +210,25 @@
                         <li><a href="theory/big-o-notation.html#5-summary">Summary</a></li>
                     </ul>
                 `
+            },
+            {
+                id: 'restful-stateful-vs-stateless',
+                title: 'RESTful, Stateful vs Stateless',
+                sections: ['all', 'system-design'],
+                content: `
+                    <ul>
+                        <li><a href="theory/restful-stateful-vs-stateless.html#1-introduction">Introduction</a></li>
+                        <li><a href="theory/restful-stateful-vs-stateless.html#2-what-is-state">What is State?</a></li>
+                        <li><a href="theory/restful-stateful-vs-stateless.html#3-what-is-stateless">What is Stateless?</a></li>
+                        <li><a href="theory/restful-stateful-vs-stateless.html#4-what-is-stateful">What is Stateful?</a></li>
+                        <li><a href="theory/restful-stateful-vs-stateless.html#5-what-does-restful-mean-here">What Does RESTful Mean Here?</a></li>
+                        <li><a href="theory/restful-stateful-vs-stateless.html#6-restful-vs-stateful-vs-stateless-quick-comparison">Quick Comparison</a></li>
+                        <li><a href="theory/restful-stateful-vs-stateless.html#7-authentication-patterns">Authentication Patterns</a></li>
+                        <li><a href="theory/restful-stateful-vs-stateless.html#8-scaling-and-reliability-trade-offs">Scaling & Reliability</a></li>
+                        <li><a href="theory/restful-stateful-vs-stateless.html#10-when-to-use-which-apcoach">When to Use Which</a></li>
+                        <li><a href="theory/restful-stateful-vs-stateless.html#12-summary">Summary</a></li>
+                    </ul>
+                `
             }
             // Add more cards here as needed
         ];
@@ -230,7 +249,7 @@
         }
 
         // Initial render
-        ['all', 'dsa-alg', 'system-design'].forEach(renderSection);
+        ['all', 'dsa-alg', 'system-design', 'english'].forEach(renderSection);
 
         function showSection(sectionId) {
             // Hide all sections
